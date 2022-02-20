@@ -42,13 +42,19 @@ padding: 0 18px;
 .title-image{
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  
 }
 #features{
   padding: 7% 15%
+  background-color:#fff;
+  z-index: 1;
+  position: relative;
 }
 .features-box{
   text-align: center;
   padding: 5%;
+
 }
 .icon{
   color: #ef8172;
@@ -79,4 +85,13 @@ padding-bottom: 3%;
 .press-logo{
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
 }
